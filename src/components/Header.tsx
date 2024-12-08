@@ -6,6 +6,7 @@ import Logo from "./base/Logo";
 import styled from "styled-components";
 
 const StyledCMenuContainer = styled(Container)`
+    overflow-x: scroll;
     white-space: nowrap;
     &::-webkit-scrollbar {
         height: 8px;
